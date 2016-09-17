@@ -34,8 +34,8 @@
       <nav id="main-menu" class="clearfix right with-p-search" data-nav-text="--- Navigate ---">
 
         <ul id="menu-main-menu" class="clearfix top-menu">
-          <li id="menu-item-1091" class="selected parent menu-item"><a href="/">Home</a> </li>
-          <li id="menu-item-1095" class="menu-item"><a href="/aboutus">About Us </a></li>
+          <li id="menu-item-1091" class="menu-item"><a href="/">Home</a> </li>
+          <li id="menu-item-1095" class="selected parent menu-item"><a href="/aboutus">About Us </a></li>
           <li id="menu-item-1095" class="menu-item"><a href="http://checkmyareadevelopment.com/loanstamp/inside/user_reg.php?utype=borrower">Borrowers </a></li>
           <li id="menu-item-1089" class="menu-item"><a href="http://checkmyareadevelopment.com/loanstamp/inside/user_reg.php?utype=lender">Lenders </a></li>
           <li id="menu-item-1095" class="menu-item"><a href="http://loanstamp.info">Blog </a></li>
@@ -47,37 +47,64 @@
     </div>
 </header>
 
-<div id="content" class="layout-fixed-width" style="margin-bottom: 0px;">
+<div id="content" class="clearfix layout-fixed-width">
 
-  <div id="custom-header" class="header-below" style="height:460px;">
-    <div class="cta" style="width:50%">
-      <div class="cta-back" style="background-image:url(http://krownthemes.com/wp-content/uploads/sites/10/2014/08/b0.jpg)"></div>
-      <div class="cta-holder">
-        <h2>Borrowers </h2>
-        <div class="cta-link">
-          <a class="krown-button custom" href="http://checkmyareadevelopment.com/loanstamp/inside/user_reg.php?utype=borrower" target="_self">Sign Up</a>
-        </div>
-      </div>
-    </div>
-    <div class="cta" style="width:50%">
-      <div class="cta-back" style="background-image:url(http://krownthemes.com/wp-content/uploads/sites/10/2014/08/b1.jpg)"></div>
-      <div class="cta-holder">
-        <h2>Lender</h2>
-        <div class="cta-link">
-          <a class="krown-button custom" href="http://checkmyareadevelopment.com/loanstamp/inside/user_reg.php?utype=lender" target="_self">Sign Up</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--<div class="clearfix wrapper">
-  </div>-->
+
+		<div class="clearfix wrapper">
+
+			<header id="page-title"><h1 class="title">Contact</h1><h2 class="subtitle">Get in touch!</h2></header>
+
+				<div class="normal-content no-boxed remove-preloader">
+
+        <div id="hgmap" style="width:100%;height:500px"></div>
+
+
+          <div class="krown-column-row" style="margin-top:35px"><div class="krown-column-container clearfix first span4 clearfix">
+<h3>Contact Details</h3>
+<p><span style="font-size: 14px; line-height: 22px;">Lorem ipsum dolor sit amet nec, consectetuer adipi smodo ligula eget d massa.</span></p>
+<p><span style="color: #000000; font-size: 14px; line-height: 22px;"><strong>Manchester Road 12-8B</strong></span><br>
+<span style="color: #000000; font-size: 14px; line-height: 22px;"> <strong> Silictown 7854MD,</strong></span><br>
+<span style="color: #000000; font-size: 14px; line-height: 22px;"> <strong> Great Country</strong></span></p>
+<p><span style="color: #000000; font-size: 14px; line-height: 22px;"><strong><a href="http://backer-demo.krownthemes.com/contact/#"><span style="color: #000000;">hello@me.com</span></a></strong></span><br>
+<span style="color: #000000; font-size: 14px; line-height: 22px;"> <strong> +46 0123 456 789</strong></span></p>
+</div> <div class="krown-column-container clearfix last span8 clearfix">
+<h3>Drop Us a Line</h3>
+<section class="krown-form clearfix">
+	    	<form method="POST" action="/contact/create">
+	    		<div class="krown-column-container span4 first">
+	    			<label for="name">Name</label>
+	    			<input id="name" type="text" name="name" class="name">
+	    		</div>
+	    		<div class="krown-column-container span4">
+	    			<label for="email">Email</label>
+	    			<input id="email" type="email" name="email" class="email" novalidate="">
+	    		</div>
+	    		<div class="krown-column-container span4 last">
+	    			<label for="subject">Subject</label>
+	    			<input id="subject" type="text" name="subject" class="subject">
+	    		</div>
+	    		<div class="krown-column-container span12 first last">
+	    			<label for="message">Your Message</label>
+	    			<textarea id="message" name="message" class="message"></textarea>
+	    		</div>
+	    		<input type="text" name="fred" class="fred hidden" value="">
+	        	<input type="submit" class="submit" value="Send Email">
+	    		<input type="hidden" name="dlo128" class="hidden dlo128" value="nothing@spam.com"></form>
+	    	<p class="hidden success-message">Your message was successfully sent!nThanks you and we will reply as soon as possible..nnHave a nice day,nMe.</p>
+	    	<p class="hidden error-message">Please complete all the fields properly if you want your email to reach it's destination!</p>
+	    </section>
+</div></div>
+
+
+		</div>
+
+
+		<!-- Inner Wrapper End -->
+		</div>
 
   <!-- Main Wrapper End -->
 </div>
 
-<div class="krown-column-row" style="margin-top: -20px; padding-bottom: 40px;"><div class="krown-column-container first last span12 kill-space">
-<p style="text-align: center; margin-top: -24px;"><span class="extreme">Getting a loan has never been that easy.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <a class="krown-button large color" href="/aboutus" target="_blank">Learn More</a></p>
-</div></div>
   <!-- Footer #1 Wrapper Start -->
 
 
@@ -157,6 +184,23 @@
 
     </footer>
 	<!-- Footer End -->
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("hgmap");
+  var mapOptions = {
+    center: new google.maps.LatLng(12.9146211,77.6250695),
+    zoom: 16
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({
+  position: mapOptions.center,
+  animation:google.maps.Animation.BOUNCE
+  });
 
+marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </body>
 </html>
