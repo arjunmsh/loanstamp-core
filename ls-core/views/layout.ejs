@@ -15,7 +15,7 @@
         using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
         of Sails' conventional asset pipeline (boilerplate Gruntfile).
 
-        By default, stylesheets from your `assets/styles` folder are included
+        By default, stylesheets from your `styles` folder are included
         here automatically (between STYLES and STYLES END). Both CSS (.css) and LESS (.less)
         are supported. In production, your styles will be minified and concatenated into
         a single file.
@@ -29,7 +29,9 @@
     -->
 
     <!--STYLES-->
+    <link rel="stylesheet" href="/styles/font-awesome.css">
     <link rel="stylesheet" href="/styles/importer.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <!--STYLES END-->
   </head>
 
@@ -47,7 +49,7 @@
         that you load these templates client-side.
 
         By default, your Gruntfile is configured to automatically load and precompile
-        client-side JST templates in your `assets/templates` folder, then
+        client-side JST templates in your `templates` folder, then
         include them here automatically (between TEMPLATES and TEMPLATES END).
 
         To customize this behavior to fit your needs, just edit `tasks/pipeline.js`.
@@ -73,7 +75,7 @@
       on the client using a solution like AMD (RequireJS).  Or, if you like, you can
       take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
 
-      By default, files in your `assets/js` folder are included here
+      By default, files in your `js` folder are included here
       automatically (between SCRIPTS and SCRIPTS END).  Both JavaScript (.js) and
       CoffeeScript (.coffee) are supported. In production, your scripts will be minified
       and concatenated into a single file.
@@ -89,6 +91,7 @@
 
     <!--SCRIPTS-->
     <script src="/js/dependencies/sails.io.js"></script>
+    <script src="/js/jquery.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>
