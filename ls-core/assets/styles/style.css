@@ -102,14 +102,14 @@ iframe {
 }
 #content {
 	margin: 0 auto;
-	padding: 60px 0 120px;
+	padding: 60px 0 0;
 }
 #content > div > *:first-child {
 	margin-top: 0;
 }
 #content > div > div.boxed {
 	background: #fff;
-	padding: 50px;
+	padding: 0px;
 }
 
 /* ------------------------
@@ -479,7 +479,7 @@ body.sticky-header #footer1 {
 	position: relative;
 	top: -60px;
 	left: 0;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 	width: 100%;
 	background: #fff;
 }
@@ -571,7 +571,7 @@ body.sticky-header #footer1 {
 	transform: scale(1.05);
 }
 .no-touch #custom-header .cta:hover h2, #custom-header .cta.hover h2 {
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 .no-touch #custom-header .cta:hover .cta-link, #custom-header .cta.hover .cta-link {
 	margin-top: 70px;
@@ -587,7 +587,7 @@ body.sticky-header #footer1 {
 #map-contact {
 	height: 460px;
 	width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 }
 #map-contact:after {
 	background: transparent;
@@ -948,7 +948,7 @@ html.ie8 .sub-menu {
 	line-height: 12px;
 	font-weight: 400;
 	border-top: 1px solid transparent;
-	padding: 2px 40px 0 !important;
+	padding: 0px !important;
 	text-transform: uppercase;
 }
 .krown-tabs .titles li h5 a, #content .memberdeck .dashboardmenu li a {
@@ -1376,7 +1376,7 @@ form .form-row .idc-dropdown:after {
 /* Projects page */
 
 ul.md-projects-list {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 .md-projects-list li {
 	height: 100px;
@@ -1758,10 +1758,6 @@ ul.md-projects-list {
 	color: #F75146;
 }
 
-.layout-fixed-width {
-  margin-bottom: 0px;
-  height: 40px;
-}
 /* ------------------------
 -----   Profile  -----
 ------------------------------*/
@@ -4559,7 +4555,7 @@ html.ie8 .rev_slider .krown-button {
 	.krown-tabs .titles li h5, #content .memberdeck .dashboardmenu li a {
 		font-size: 11px;
 		line-height: 11px;
-		padding: 2px 25px 0 !important;
+		padding: 0px !important;
 	}
 	.post-title h2, .post-title h1 {
 		font-size: 22px;
@@ -4640,7 +4636,7 @@ html.ie8 .rev_slider .krown-button {
 		font-size: 16px;
 		height: 56px;
 		line-height: 52px;
-		padding: 0 30px;
+		padding: 0 0px;
 	}
 
 	.md-projects-list .title h4 {
